@@ -36,6 +36,7 @@ class _SecondState extends State<Second> {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(date[index]),
+                  
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.only(left: 4,right: 4),
